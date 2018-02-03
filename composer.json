@@ -1,6 +1,6 @@
 {
     "name": "bantenprov/rasio-ketersediaan-sekolah-sd-mi",
-    "description": "Persentase Penduduk yang Bekerja",
+    "description": "Rasio Ketersediaan Sekolah (RKS) SD / MI",
     "type": "library",
     "homepage": "https://github.com/bantenprov/rasio-ketersediaan-sekolah-sd-mi",
     "authors": [
