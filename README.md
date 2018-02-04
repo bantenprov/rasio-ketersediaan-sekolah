@@ -71,7 +71,7 @@ children: [
   {
     path: '/dashboard/rk-sekolah-sd-mi',
     components: {
-      main: resolve => require(['./components/views/bantenprov/rk-sekolah-sd-mi/DashboardrkSekolahSDMI.vue'], resolve),
+      main: resolve => require(['./components/views/bantenprov/rk-sekolah-sd-mi/DashboardRKSekolahSDMI.vue'], resolve),
       navbar: resolve => require(['./components/Navbar.vue'], resolve),
       sidebar: resolve => require(['./components/Sidebar.vue'], resolve)
     },
@@ -91,7 +91,7 @@ children: [
     {
       path: '/admin/dashboard/rk-sekolah-sd-mi',
       components: {
-        main: resolve => require(['./components/bantenprov/rk-sekolah-sd-mi/rkSekolahSDMIAdmin.show.vue'], resolve),
+        main: resolve => require(['./components/bantenprov/rk-sekolah-sd-mi/RKSekolahSDMIAdmin.show.vue'], resolve),
         navbar: resolve => require(['./components/Navbar.vue'], resolve),
         sidebar: resolve => require(['./components/Sidebar.vue'], resolve)
       },
@@ -137,37 +137,37 @@ children: [
 
 ```javascript
 
-import rkSekolahSDMI from './components/bantenprov/rk-sekolah-sd-mi/rkSekolahSDMI.chart.vue';
-Vue.component('echarts-rk-sekolah-sd-mi', rkSekolahSDMI);
+import RKSekolahSDMI from './components/bantenprov/rk-sekolah-sd-mi/RKSekolahSDMI.chart.vue';
+Vue.component('echarts-rk-sekolah-sd-mi', RKSekolahSDMI);
 
-import rkSekolahSDMIKota from './components/bantenprov/rk-sekolah-sd-mi/rkSekolahSDMIKota.chart.vue';
-Vue.component('echarts-rk-sekolah-sd-mi-kota', rkSekolahSDMIKota);
+import RKSekolahSDMIKota from './components/bantenprov/rk-sekolah-sd-mi/RKSekolahSDMIKota.chart.vue';
+Vue.component('echarts-rk-sekolah-sd-mi-kota', RKSekolahSDMIKota);
 
-import rkSekolahSDMITahun from './components/bantenprov/rk-sekolah-sd-mi/rkSekolahSDMITahun.chart.vue';
-Vue.component('echarts-rk-sekolah-sd-mi-tahun', rkSekolahSDMITahun);
+import RKSekolahSDMITahun from './components/bantenprov/rk-sekolah-sd-mi/RKSekolahSDMITahun.chart.vue';
+Vue.component('echarts-rk-sekolah-sd-mi-tahun', RKSekolahSDMITahun);
 
-import rkSekolahSDMIAdminShow from './components/bantenprov/rk-sekolah-sd-mi/rkSekolahSDMIAdmin.show.vue';
-Vue.component('admin-view-rk-sekolah-sd-mi-tahun', rkSekolahSDMIAdminShow);
+import RKSekolahSDMIAdminShow from './components/bantenprov/rk-sekolah-sd-mi/RKSekolahSDMIAdmin.show.vue';
+Vue.component('admin-view-rk-sekolah-sd-mi-tahun', RKSekolahSDMIAdminShow);
 
 //== Echarts Angka Partisipasi Kasar
 
-import rkSekolahSDMIBar01 from './components/views/bantenprov/rk-sekolah-sd-mi/rkSekolahSDMIBar01.vue';
-Vue.component('rk-sekolah-sd-mi-bar-01', rkSekolahSDMIBar01);
+import RKSekolahSDMIBar01 from './components/views/bantenprov/rk-sekolah-sd-mi/RKSekolahSDMIBar01.vue';
+Vue.component('rk-sekolah-sd-mi-bar-01', RKSekolahSDMIBar01);
 
-import rkSekolahSDMIBar02 from './components/views/bantenprov/rk-sekolah-sd-mi/rkSekolahSDMIBar02.vue';
-Vue.component('rk-sekolah-sd-mi-bar-02', rkSekolahSDMIBar02);
+import RKSekolahSDMIBar02 from './components/views/bantenprov/rk-sekolah-sd-mi/RKSekolahSDMIBar02.vue';
+Vue.component('rk-sekolah-sd-mi-bar-02', RKSekolahSDMIBar02);
 
 //== mini bar charts
-import rkSekolahSDMIBar03 from './components/views/bantenprov/rk-sekolah-sd-mi/rkSekolahSDMIBar03.vue';
-Vue.component('rk-sekolah-sd-mi-bar-03', rkSekolahSDMIBar03);
+import RKSekolahSDMIBar03 from './components/views/bantenprov/rk-sekolah-sd-mi/RKSekolahSDMIBar03.vue';
+Vue.component('rk-sekolah-sd-mi-bar-03', RKSekolahSDMIBar03);
 
-import rkSekolahSDMIPie01 from './components/views/bantenprov/rk-sekolah-sd-mi/rkSekolahSDMIPie01.vue';
-Vue.component('rk-sekolah-sd-mi-pie-01', rkSekolahSDMIPie01);
+import RKSekolahSDMIPie01 from './components/views/bantenprov/rk-sekolah-sd-mi/RKSekolahSDMIPie01.vue';
+Vue.component('rk-sekolah-sd-mi-pie-01', RKSekolahSDMIPie01);
 
-import rkSekolahSDMIPie02 from './components/views/bantenprov/rk-sekolah-sd-mi/rkSekolahSDMIPie02.vue';
-Vue.component('rk-sekolah-sd-mi-pie-02', rkSekolahSDMIPie02);
+import RKSekolahSDMIPie02 from './components/views/bantenprov/rk-sekolah-sd-mi/RKSekolahSDMIPie02.vue';
+Vue.component('rk-sekolah-sd-mi-pie-02', RKSekolahSDMIPie02);
 
 //== mini pie charts
-import rkSekolahSDMIPie03 from './components/views/bantenprov/rk-sekolah-sd-mi/rkSekolahSDMIPie03.vue';
-Vue.component('rk-sekolah-sd-mi-pie-03', rkSekolahSDMIPie03);
+import RKSekolahSDMIPie03 from './components/views/bantenprov/rk-sekolah-sd-mi/RKSekolahSDMIPie03.vue';
+Vue.component('rk-sekolah-sd-mi-pie-03', RKSekolahSDMIPie03);
 ```
