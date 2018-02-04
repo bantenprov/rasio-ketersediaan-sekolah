@@ -26,7 +26,7 @@
             "src/helpers/helpers.php"
         ],
         "psr-4": {
-            "Bantenprov\\rkSekolahSDMI\\": "src"
+            "Bantenprov\\RKSekolahSDMI\\": "src"
         }
     },
     "minimum-stability": "dev"
